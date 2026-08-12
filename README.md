@@ -1,8 +1,6 @@
 ### Salah Makboul — I build the layer most people won't touch: kernel drivers, Darija voice AI, and the backend under both.
 
 **Live right now, not screenshots:**
-
-- 🎙️ [Darija Flight Assistant](https://vioce-assistance-sahariano.onrender.com/) — FastAPI + WebSocket + Gemini, understands Moroccan Arabic voice, books real flights. *(free-tier host, first load ~30s)*
 - 💬 [FishoFisho](https://fishofisho-sm.onrender.com/) — Django + Channels real-time chat, 21 models, 202 tests, RBAC that's actually enforced not just modeled.
 - 🔊 Windows Bluetooth A2DP Driver — KMDF kernel-mode driver built from raw AVDTP spec after proving Intel's stack blocks user-mode L2CAP. Three kernel crashes diagnosed via `cdb.exe`, zero Stack Overflow answers to copy from. *(repo pinned below)*
 - 🌐 [Portfolio](https://salah-makboul-portfolio.vercel.app/) — WebGL hero, scroll-driven storytelling, and an on-page assistant that only answers from what's actually on the page — no hallucinated claims about me.
