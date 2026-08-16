@@ -7,4 +7,4 @@
 
 **The throughline:** I keep ending up at the boundary — Darija doesn't have clean NLU tooling so I built my own filter maps and STT pipeline; Windows Bluetooth internals aren't documented so I read the AVDTP spec directly and debugged crash dumps by hand. I'd rather spend three days proving *why* something breaks than three hours working around it.
 
-Currently based in Laâyoune, Morocco (GMT+1) — open to freelance and full-time backend/systems work. One thing I'd genuinely like help thinking through: a Darija code-switching ASR benchmark (`DarijaBench`) — 500 labeled clips, first of its kind for the dialect. If that's your kind of problem too, my inbox is open.
+Currently based in Morocco (GMT+1) — open to freelance and full-time backend/systems work. One thing I'd genuinely like help thinking through: a Darija code-switching ASR benchmark (`DarijaBench`) — 500 labeled clips, first of its kind for the dialect. If that's your kind of problem too, my inbox is open
