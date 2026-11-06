@@ -25,6 +25,12 @@ pip install call4agents && call4agents crashtest --demo
 
 [Website](https://salahmakboul.github.io/call4agents/) · [PyPI](https://pypi.org/project/call4agents/) · [Security policy](https://github.com/salahmakboul/call4agents/blob/main/SECURITY.md)
 
+## Write-up and citations
+
+- **[A "yes" is not exactly-once](https://github.com/salahmakboul/call4agents/tree/main/docs/finding)** (5 November 2026). One approved payment, a crash right after it, a documented resume: 2 payments in LangGraph, Pydantic AI and the OpenAI Agents SDK, in all 30 runs per framework. A record outside the framework brought it to 1. Script and every run's data included.
+- **hitl approvals spec (v0 draft):** the single-use approval rule went into section 3.8 ([PR #10](https://github.com/hitly-net/hitl-spec/pull/10), by the spec's maintainer), and my replay-after-restart conformance check was merged ([PR #11](https://github.com/hitly-net/hitl-spec/pull/11)).
+- **Agentic AI test checklist v1.3.2** (Dr Srinivas Padmanabhuni): three crash-recovery cases from my [dataset](https://huggingface.co/datasets/ghiuoi/agent-crash-recovery-tests) were added, with credit ([checklist](https://huggingface.co/datasets/srinivaspadmanabhuni/agentic-ai-test-checklist-110)).
+
 ## Other work
 
 - [virtual-A2DP-driver](https://github.com/salahmakboul/virtual-A2DP-driver): a user-mode Bluetooth audio stack for Windows in C++, written from the AVDTP spec. Work in progress.
